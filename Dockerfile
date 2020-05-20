@@ -1,6 +1,6 @@
 FROM alpine
 
-RUN apk add --update --no-cache git openssh make curl
+RUN apk add --update --no-cache git mercurial openssh make curl
 
 VOLUME /git
 WORKDIR /git
